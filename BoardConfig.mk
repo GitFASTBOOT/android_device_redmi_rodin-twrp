@@ -16,6 +16,9 @@
 
 DEVICE_PATH := device/redmi/rodin
 
+# Building with minimal manifest
+ALLOW_MISSING_DEPENDENCIES := true
+
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
