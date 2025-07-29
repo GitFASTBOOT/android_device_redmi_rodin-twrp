@@ -1,6 +1,7 @@
 # Touch-Modules
 on early-init
     insmod /vendor/lib/modules/scp.ko
+    insmod /vendor/lib/modules/xiaomi_touch_rodin.ko
     insmod /vendor/lib/modules/focaltech_touch_rodin.ko
     insmod /vendor/lib/modules/goodix_core_rodin.ko
-    insmod /vendor/lib/modules/xiaomi_touch_rodin.ko
+
